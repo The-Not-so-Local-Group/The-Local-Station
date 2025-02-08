@@ -1,13 +1,7 @@
 - type: tile
   id: FloorSteel
   name: tiles-steel-floor
-  sprite: /Textures/Tiles/steel.png
-  variants: 4
-  placementVariants:
-  - 1.0
-  - 1.0
-  - 1.0
-  - 1.0
+  sprite: /Textures/Tiles/Floors/floorDefault.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
