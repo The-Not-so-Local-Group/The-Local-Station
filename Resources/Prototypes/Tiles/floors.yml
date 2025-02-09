@@ -1,7 +1,7 @@
 - type: tile
   id: FloorSteel
   name: tiles-steel-floor
-  sprite: /Textures/Tiles/_Goonstation/Floors/floorDefault.png
+  sprite: /Textures/_Goonstation/Tiles/floorDefault.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -13,13 +13,7 @@
 - type: tile
   id: FloorSteelCheckerLight
   name: tiles-steel-floor-checker-light
-  sprite: /Textures/Tiles/cafeteria.png
-  variants: 4
-  placementVariants:
-  - 1.0
-  - 1.0
-  - 1.0
-  - 1.0
+  sprite: /Textures/_Goonstation/Tiles/floorBar.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -249,13 +243,7 @@
 - type: tile
   id: FloorWhite
   name: tiles-white-floor
-  sprite: /Textures/Tiles/white.png
-  variants: 4
-  placementVariants:
-  - 1.0
-  - 1.0
-  - 1.0
-  - 1.0
+  sprite: /Textures/_Goonstation/Tiles/floorWhite.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
