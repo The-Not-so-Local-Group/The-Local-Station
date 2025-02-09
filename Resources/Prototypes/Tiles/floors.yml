@@ -1,7 +1,7 @@
 - type: tile
   id: FloorSteel
   name: tiles-steel-floor
-  sprite: /Textures/Tiles/Floors/floorDefault.png
+  sprite: /Textures/Tiles/_Goonstation/Floors/floorDefault.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
