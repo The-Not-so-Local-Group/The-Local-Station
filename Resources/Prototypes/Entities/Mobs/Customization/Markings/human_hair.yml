@@ -1,11 +1,4 @@
 - type: marking
-  id: HumanHairAfro
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
-      state: afro
-- type: marking
   id: HumanHairAfro2
   bodyPart: Hair
   markingCategory: Hair

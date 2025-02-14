@@ -1,0 +1,7 @@
+- type: marking
+  id: HumanHairAfro
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _TheLocalStation/Mobs/Customization/human_hair.rsi
+      state: afro
