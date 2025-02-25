@@ -129,7 +129,7 @@ conversion_modes = {
     ),
     # rt_states - debugging!
     "rt_states": ConversionMode(
-        8, 1,
+        2, 4,
         [
             [  0,  0,  0,  0],
             [  1,  1,  1,  1],
@@ -139,6 +139,21 @@ conversion_modes = {
             [  5,  5,  5,  5],
             [  6,  6,  6,  6],
             [  7,  7,  7,  7],
+        ]
+    ),
+    "goonstation": ConversionMode(
+        2, 4,
+        [
+            # BR, TL, TR, BL  // Fun Fact: This all just ended up being an exact copy of
+            #  B   R   G   M  // `tau`, but I'm keeping this here so there's no problems later on.
+            [  0,  0,  0,  0], # 0 X (ST)
+            [  2,  2,  1,  1], # 1
+            [  0,  0,  0,  0], # 2 - diagdup of 0
+            [  2,  2,  1,  1], # 3 - diagdup of 1
+            [  1,  1,  2,  2], # 4
+            [  3,  3,  3,  3], # 5 X (IC)
+            [  1,  1,  2,  2], # 6 - diagdup of 4
+            [  4,  4,  4,  4], # 7 X (F)
         ]
     ),
 }
