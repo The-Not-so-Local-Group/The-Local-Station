@@ -157,6 +157,7 @@ conversion_modes = {
             [  4,  4,  4,  4], # 7 X (F)
         ]
     ),
+    #Local Station END
 }
 
 all_conv = "tg/citadel/tau/vxa/vxap/rt_states"
