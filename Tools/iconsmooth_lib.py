@@ -129,7 +129,7 @@ conversion_modes = {
     ),
     # rt_states - debugging!
     "rt_states": ConversionMode(
-        2, 4,
+        2, 4, #The Local Station change
         [
             [  0,  0,  0,  0],
             [  1,  1,  1,  1],
