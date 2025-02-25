@@ -141,6 +141,7 @@ conversion_modes = {
             [  7,  7,  7,  7],
         ]
     ),
+    #Local Station START
     "goonstation": ConversionMode(
         2, 4,
         [
