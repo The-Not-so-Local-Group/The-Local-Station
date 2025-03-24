@@ -1,0 +1,39 @@
+#TODO - Circuits will need to be turned into entities for more advanced stuff like animations.
+
+- type: tile
+  id: TLS_Circuit
+  name: tiles-circuit
+  sprite: /Textures/_TheLocalStation/Tiles/circuit.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
+
+
+- type: tile
+  id: TLS_Circuit_Green
+  name: tiles-circuit-green
+  sprite: /Textures/_TheLocalStation/Tiles/circuit-green.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
+
+
+
+- type: tile
+  id: TLS_Circuit_Vintage
+  name: tiles-circuit-vintage
+  sprite: /Textures/_TheLocalStation/Tiles/circuit-vintage.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000

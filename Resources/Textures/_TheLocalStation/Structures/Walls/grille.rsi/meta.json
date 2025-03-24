@@ -1,0 +1,170 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "https://github.com/goonstation/goonstation/blob/master/icons/obj/grille.dmi at commit 61906c560f450db93f4ef9b520fa22213ff3327d",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "grillefull"
+      },
+      {
+        "name": "grille0",
+        "directions": 4
+      },
+      {
+        "name": "grille1",
+        "directions": 4
+      },
+      {
+        "name": "grille2",
+        "directions": 4
+      },
+      {
+        "name": "grille3",
+        "directions": 4
+      },
+      {
+        "name": "grille4",
+        "directions": 4
+      },
+      {
+        "name": "grille5",
+        "directions": 4
+      },
+      {
+        "name": "grille6",
+        "directions": 4
+      },
+      {
+        "name": "grille7",
+        "directions": 4
+      },
+
+
+      {
+        "name": "grille_damaged_1_full"
+      },
+      {
+        "name": "grille_damaged_1_0",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_1",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_2",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_3",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_4",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_5",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_6",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_1_7",
+        "directions": 4
+      },
+
+
+      {
+        "name": "grille_damaged_2_full"
+      },
+      {
+        "name": "grille_damaged_2_0",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_1",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_2",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_3",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_4",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_5",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_6",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_2_7",
+        "directions": 4
+      },
+
+      {
+        "name": "grille_damaged_3_full"
+      },
+      {
+        "name": "grille_damaged_3_0",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_1",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_2",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_3",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_4",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_5",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_6",
+        "directions": 4
+      },
+      {
+        "name": "grille_damaged_3_7",
+        "directions": 4
+      },
+
+
+      {
+        "name": "grille_cut1"
+      },
+
+      {
+        "name": "grille_cut2"
+      }
+
+
+
+
+
+    ]
+}

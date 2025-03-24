@@ -1,0 +1,60 @@
+- type: tile
+  id: TLS_Floor
+  name: tiles-floor
+  sprite: /Textures/_TheLocalStation/Tiles/floor.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
+
+- type: tile
+  id: TLS_Floor_White
+  name: tiles-floor-white
+  sprite: /Textures/_TheLocalStation/Tiles/white.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
+
+- type: tile
+  id: TLS_Floor_Dark
+  name: tiles-floor-dark
+  sprite: /Textures/_TheLocalStation/Tiles/dark.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
+
+
+
+- type: tile
+  id: TLS_Floor_Jen
+  name: tiles-floor-jen
+  sprite: /Textures/_TheLocalStation/Tiles/plating_jen.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
+
+- type: tile
+  id: TLS_Floor_Engine
+  name: tiles-floor-engine
+  sprite: /Textures/_TheLocalStation/Tiles/engine.png
+  baseTurf: TLS_Plating
+  deconstructTools: [ Axing ]
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000

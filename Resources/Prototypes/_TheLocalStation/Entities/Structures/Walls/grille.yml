@@ -1,0 +1,43 @@
+
+
+
+- type: entity
+  id: TLS_Grille
+  parent: BaseStructure
+  name: grille
+  description: A flimsy framework of iron rods.
+  components:
+    - type: MeleeSound
+      soundGroups:
+        Brute:
+          path:
+            "/Audio/Weapons/grille_hit.ogg"
+    - type: CanBuildWindowOnTop
+    - type: Sprite
+      drawdepth: Walls
+      sprite: _TheLocalStation/Structures/Walls/grille.rsi
+      color: "#8C8C8C"
+    - type: Icon
+      sprite: _TheLocalStation/Structures/Walls/grille.rsi
+      color: "#8C8C8C"
+      state: grille
+    - type: Construction
+      graph: Grille
+      node: grille
+      deconstructionTarget: start
+
+    - type: Physics
+      bodyType: Static
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.5,-0.5,0.5,0.5"
+          layer:
+          - GlassLayer
+    - type: IconSmooth
+      key: walls
+      base: grille
+
+

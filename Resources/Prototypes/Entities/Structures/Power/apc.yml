@@ -61,8 +61,8 @@
     examinable: true
     nodes:
       input:
-        !type:CableDeviceNode
-        nodeGroupID: MVPower
+        !type:CableTerminalPortNode
+        nodeGroupID: HVPower
       output:
         !type:CableDeviceNode
         nodeGroupID: Apc

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "TODO: Goonstation copyright (Don't shoot me, JorJ)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+
+    {
+        "name": "powercable_0"
+      },
+
+    {
+        "name": "cable-1"
+      },
+    {
+        "name": "cable-2"
+    },
+    {
+        "name": "cable-3"
+    },
+    {
+        "name": "cable-4"
+    },
+    {
+        "name": "cable-5"
+    },
+    {
+        "name": "cable-6"
+    },
+
+
+    {
+        "name": "thick-cable-1"
+      },
+    {
+        "name": "thick-cable-2"
+    },
+    {
+        "name": "thick-cable-3"
+    },
+    {
+        "name": "thick-cable-4"
+    },
+    {
+        "name": "thick-cable-5"
+    },
+    {
+        "name": "thick-cable-6"
+    }
+
+  ]
+}

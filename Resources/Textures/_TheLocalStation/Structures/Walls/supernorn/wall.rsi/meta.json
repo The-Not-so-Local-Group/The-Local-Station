@@ -1,0 +1,83 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from https://github.com/goonstation/goonstation/blob/master/icons/turf/walls/supernorn/smooth.dmi at commit 61906c560f450db93f4ef9b520fa22213ff3327d",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "wallfull"
+      },
+      {
+        "name": "wall0",
+        "directions": 4
+      },
+      {
+        "name": "wall1",
+        "directions": 4
+      },
+      {
+        "name": "wall2",
+        "directions": 4
+      },
+      {
+        "name": "wall3",
+        "directions": 4
+      },
+      {
+        "name": "wall4",
+        "directions": 4
+      },
+      {
+        "name": "wall5",
+        "directions": 4
+      },
+      {
+        "name": "wall6",
+        "directions": 4
+      },
+      {
+        "name": "wall7",
+        "directions": 4
+      },
+
+      {
+        "name": "reinforcedfull"
+      },
+      {
+        "name": "reinforced0",
+        "directions": 4
+      },
+      {
+        "name": "reinforced1",
+        "directions": 4
+      },
+      {
+        "name": "reinforced2",
+        "directions": 4
+      },
+      {
+        "name": "reinforced3",
+        "directions": 4
+      },
+      {
+        "name": "reinforced4",
+        "directions": 4
+      },
+      {
+        "name": "reinforced5",
+        "directions": 4
+      },
+      {
+        "name": "reinforced6",
+        "directions": 4
+      },
+      {
+        "name": "reinforced7",
+        "directions": 4
+      }
+
+    ]
+  }

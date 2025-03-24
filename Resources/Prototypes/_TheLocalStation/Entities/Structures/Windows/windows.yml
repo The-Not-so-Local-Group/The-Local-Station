@@ -1,0 +1,82 @@
+- type: entity
+  parent: Window
+  id: TLS_Window
+  name: window
+  components:
+
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _TheLocalStation/Structures/Windows/window_full.rsi
+    color: "#A3DCFFCC"
+
+  - type: Icon
+    sprite: _TheLocalStation/Structures/Windows/window_full.rsi
+    color: "#A3DCFFCC"
+
+  - type: IconSmooth
+    base: window
+
+
+
+- type: entity
+  parent: Window
+  id: TLS_Reinforced_Window
+  name: reinforced window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _TheLocalStation/Structures/Windows/window_full.rsi
+    color: "#6192b0CC"
+
+  - type: Icon
+    sprite: _TheLocalStation/Structures/Windows/window_full.rsi
+    color: "#6192b0CC"
+
+  - type: IconSmooth
+    base: window_reinforced
+
+
+
+- type: entity
+  parent: Window
+  id: TLS_Plasma_Window
+  name: plasma window
+
+  components:
+
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _TheLocalStation/Structures/Windows/window_full.rsi
+    color: "#a114ffCC"
+
+  - type: Icon
+    sprite: _TheLocalStation/Structures/Windows/window_full.rsi
+    color: "#a114ffCC"
+
+  - type: IconSmooth
+    base: window_reinforced
+
+
+
+
+
+- type: entity
+  parent: WindowDirectional
+  id: TLS_Reinforced_Window_Pane
+  name: Reinforced window Pane
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+
+  components:
+  - type: Sprite
+    sprite: _TheLocalStation/Structures/Windows/window_pane.rsi
+    state: reinforced_window
+    color: "#6192b0CC"
+  - type: Icon
+    sprite: _TheLocalStation/Structures/Windows/window_pane.rsi
+    state: reinforced_window
+    color: "#6192b0CC"
+
+

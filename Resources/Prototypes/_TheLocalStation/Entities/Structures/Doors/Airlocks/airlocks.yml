@@ -1,0 +1,9 @@
+- type: entity
+  parent: Airlock
+  id: TLS_Airlock
+  suffix: basic
+  components:
+  - type: Sprite
+    sprite: _TheLocalStation/Structures/Doors/Airlocks/Standard/basic.rsi
+  - type: Wires
+    layoutId: AirlockService
