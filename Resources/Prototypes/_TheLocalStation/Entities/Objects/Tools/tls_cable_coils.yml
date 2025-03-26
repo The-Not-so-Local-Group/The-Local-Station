@@ -1,0 +1,28 @@
+- type: entity
+  id: PowerCableStack
+  parent: CableStack
+  name: cable coil
+  suffix: Full
+  description: Power cables to move power across the station.
+  components:
+  - type: Stack
+    stackType: CablePower
+    baseLayer: base
+    # layerStates:
+    # - thick-cable-1
+    # - thick-cable-2
+    # - thick-cable-3
+    # - thick-cable-4
+    # - thick-cable-5
+  - type: Sprite
+    state: cable-5
+    layers:
+    - state: cable-5
+      map: ["base"]
+  - type: Item
+    heldPrefix: coilpower
+  - type: CablePlacer
+    cablePrototypeID: PowerCable
+    blockingWireType: HighVoltage
+  - type: Appearance
+
