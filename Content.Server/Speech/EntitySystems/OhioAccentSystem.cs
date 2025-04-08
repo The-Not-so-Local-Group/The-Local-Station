@@ -34,6 +34,13 @@ public sealed class OhioAccentSystem : EntitySystem
         // Sanitize capital again, in case we substituted a word that should be capitalized
         message = message[0].ToString().ToUpper() + message.Remove(0, 1);
 
+        // Suffixes
+        if (_random.Prob(0.3f))
+        {
+            var pick = _random.Next(1, 8);
+            message += Loc.GetString($"accent-ohio-suffix-{pick}");
+        }
+
         args.Message = message;
     }
 };
